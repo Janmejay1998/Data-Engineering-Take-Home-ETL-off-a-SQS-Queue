@@ -1,6 +1,8 @@
 # Fetch Rewards #
 ## Data Engineering Take Home: ETL off a SQS Qeueue ##
-
+```link
+https://fetch-hiring.s3.amazonaws.com/data-engineer/pii-masking.pdf
+```
 
 ## To run the code
 1. Run Docker-compose.yml file
