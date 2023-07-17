@@ -24,3 +24,8 @@ psql -d postgres -U postgres -p 5432 -h localhost -W
 ```postgres
 select * from user_logins
 ```
+
+## Credentials and database information
+1. **username**=`postgres`
+2. **password**=`postgres`
+3. **database**=`postgres`
