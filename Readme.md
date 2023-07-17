@@ -1,0 +1,24 @@
+# Fetch Rewards #
+## Data Engineering Take Home: ETL off a SQS Qeueue ##
+
+
+## To run the code
+1. Run Docker-compose.yml file
+```cmd
+docker-compose up -d
+```
+
+2. Run Python main.py file
+```python
+python -m app.main
+```
+
+3. Run to connect to the Postgres database
+```cmd
+psql -d postgres -U postgres -p 5432 -h localhost -W
+```
+
+4. Run SQL for showing all contents 
+```postgres
+select * from user_logins
+```
